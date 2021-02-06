@@ -6,4 +6,4 @@ layout: home
 ---
 Alhamdulillah... Find more at:
 [Riaj Mahmud Rasel](https://riaj.net)
-![Riaj Mahmud Rasel](https://https://github.com/riajmahmud/riajmahmud.github.io/blob/main/images/profile_web.png?raw=true)
+![Riaj Mahmud Rasel](https://github.com/riajmahmud/riajmahmud.github.io/blob/main/images/profile_web.png?raw=true)
