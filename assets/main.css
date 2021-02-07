@@ -1,4 +1,5 @@
 * {font-family: "Segoe UI"; font-size: 16px;}
+body {
 
 
 .sticky_nav{border: 0px solid #ddd;background: transparent; position: sticky; top: 0px;overflow: hidden; padding:0px; z-index: 2;}
@@ -18,3 +19,72 @@
 	.all-nav-link {background: #eaf1f1;}
 	.nav-small{font-size: 20px;text-align: center; padding-top: 10px;padding-bottom: 10px;border-bottom: 2px solid #ccddff;}
 	.nav-small:hover{background:#456688;color: white;}
+
+	
+	
+	
+	
+	
+
+
+
+	@media only screen and (min-width: 360px)
+
+	{
+		
+		.top-intro{display: block;}
+		.bp1, .bp2{display: inline-block;}
+		.txt-logo-small{display: none;}
+		.link-row{display: inline-block;}
+
+	}
+
+	@media only screen and (min-width: 420px)
+
+	{
+		
+		.txt-logo{ letter-spacing: 1px; font-size:26px;}
+		.top-single{width: 50%;}
+		.bp3{display: inline-block;}
+		
+
+	}
+		@media only screen and (min-width: 600px)
+
+	{
+		
+		.bp4{display: inline-block;}
+		.navi-span-float{display: none;}
+
+	}
+
+
+	@media only screen and (min-width: 720px)
+
+	{
+		
+		.txt-logo{ letter-spacing: 1px; font-size:28px;}
+		.navi-span{font-size: 20px; }
+		.bp5{display: inline-block;}
+
+	}
+
+		@media only screen and (min-width: 810px)
+
+	{
+		.bp6{display: inline-block;}
+
+  		.footer{ grid-template-columns: auto auto }
+  		.last-item{ grid-column: 1/3 }
+
+	}
+
+
+
+
+	/*  OVER WRITTEN   */
+
+
+	
+	.bgcol2{background:#eec15a;}
+	.bgcol3{background:#ffa791;}
