@@ -1,5 +1,6 @@
 ---
 title: "Home | riaj.net"
+permalink: ""
 ---
 
 {% include navbar.html %}
