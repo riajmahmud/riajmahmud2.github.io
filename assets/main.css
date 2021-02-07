@@ -3,6 +3,10 @@
 body { max-width: 1024px;}    */
 
 
+	/******************* Top Intro--Row 1  */
+	.top-intro{display: none; padding: 8px 12px;border: 0px solid #ccc;background: #fafafa;}
+	.txt-logo {font-size: 24px;font-weight: bold;transition:  all .8s;}
+
 .sticky_nav{border: 0px solid #ddd;background: transparent; position: sticky; top: 0px;overflow: hidden; padding:0px; z-index: 2;}
 .consume-horizontal{background: #eaf1f1;}
 	.limiter{margin:auto;max-width:1024px;border: 0px solid red;overflow: hidden;}
