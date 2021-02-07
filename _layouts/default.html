@@ -2,19 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>_x_1 {{ page.title }} _x_2</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="assets/main.css">
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/blog/">Blog</a>
-    </nav>
-    <h1>_x_1{{ page.title }}_x_2</h1>
-    <section> _x_1
+    {% include navbar.html %}
+
       {{ content }}
-      _x_2
-    </section>
+
     {% include footer.html content="" %}
   </body>
 </html>
