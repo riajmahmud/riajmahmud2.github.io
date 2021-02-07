@@ -42,12 +42,12 @@ body { max-width: 1024px;}    */
 	margin:auto;
 }
 
-.footer-item{border:0px solid #444;text-align: center;border-radius:4px;padding:20px 0;}
+.footer-item{border:0px solid #444;text-align: center;border-radius:4px;}
 .social-link{display:block;padding:5px;color: #c3c1c4;font-size:18px;}
 .social-link:hover{color: white;text-decoration: underline;}
 .last-item{color:#fafafa; text-align: center;padding:20px 10px;}
 
-.first-item{display:flex;justify-content: center;align-items: center;flex-wrap: wrap;}
+.first-item{display:flex;justify-content: center;align-items: center;flex-wrap: wrap;padding:20px 0px 0px 0px;}
 
 .logo{font-size:30px;color: white;width:100%;}
 .moto{font-size:20px; color:white;width:100%;}
