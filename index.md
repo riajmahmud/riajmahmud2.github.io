@@ -5,6 +5,6 @@ layout: home
 Alhamdulillah... Find more at:
 [Riaj Mahmud Rasel](https://riaj.net)
 
-{% include image.html url="https://riajmahmud.github.io/images/profile_web.png"
+{% include imgblock.html url="https://riajmahmud.github.io/images/profile_web.png"
 max-width="200px" alt="Riaj Mahmud Rasel"
 caption="Riaj Mahmud Rasel" %}
