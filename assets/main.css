@@ -1,5 +1,6 @@
 * {font-family: "Segoe UI"; font-size: 16px;}
-body {
+*/
+body { max-width: 1024px;}    */
 
 
 .sticky_nav{border: 0px solid #ddd;background: transparent; position: sticky; top: 0px;overflow: hidden; padding:0px; z-index: 2;}
