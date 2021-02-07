@@ -1,6 +1,5 @@
 ---
 title: "Home | riaj.net"
-layout: home
 ---
 
 {% include navbar.html %}
