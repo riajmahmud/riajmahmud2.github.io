@@ -1,9 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: "Home | riaj.net"
 layout: home
 ---
 Alhamdulillah... Find more at:
 [Riaj Mahmud Rasel](https://riaj.net)
-![Riaj Mahmud Rasel](https://github.com/riajmahmud/riajmahmud.github.io/blob/main/images/profile_web.png?raw=true)
+
+{% include image.html url="https://riajmahmud.github.io/images/profile_web.png"
+max-width="200px" alt="Riaj Mahmud Rasel"
+caption="Riaj Mahmud Rasel" %}
