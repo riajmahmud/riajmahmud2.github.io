@@ -2,6 +2,8 @@
 title: "Home | riaj.net"
 layout: home
 ---
+
+{% include navbar.html %}
 Alhamdulillah... Find more at:
 [Riaj Mahmud Rasel](https://riaj.net)
 
