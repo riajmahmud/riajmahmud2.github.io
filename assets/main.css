@@ -45,14 +45,14 @@ a:hover{color:#111;text-decoration:underline;}
 }
 
 .footer-item{border:0px solid #444;text-align: center;border-radius:4px;}
-.social-link{display:block;padding:5px;color: #c3c1c4;font-size:18px;}
+.social-link{display:block;padding:5px;color: #c3c1c4;font-size:14px;}
 .social-link:hover{color: white;text-decoration: underline;}
 .last-item{color:#fafafa; text-align: center;padding:20px 10px;}
 
 .first-item{display:flex;justify-content: center;align-items: center;flex-wrap: wrap;padding:20px 0px 0px 0px;}
 
-.logo{font-size:30px;color: white;width:100%;}
-.moto{font-size:20px; color:white;width:100%;}
+.logo{font-size:24px;color: white;width:100%;}
+.moto{font-size:18px; color:white;width:100%;}
 
 .contact-txt{font-size:22px;color: white;margin:20px 0px;}
 	
