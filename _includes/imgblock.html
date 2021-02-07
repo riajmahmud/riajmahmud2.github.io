@@ -1,7 +1,7 @@
-<div style="margin: auto;">
+<div style="margin: auto;width: 80%;">
 <figure>
-   <img src="{{ include.url }}" style="max-width: {{ include.max-width }};"
+   <img src="{{ include.url }}" style="max-width: {{ include.max-width | default: "50%"}};"
       alt="{{ include.alt }}"/>
-   <figcaption>{{ include.caption }}</figcaption>
+   <figcaption style="text-align: center;">{{ include.caption }}</figcaption>
 </figure>
 </div>
