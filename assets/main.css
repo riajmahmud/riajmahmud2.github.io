@@ -2,9 +2,9 @@
 */
 body { max-width: 1024px;}    */
 
-a{color:#2a7ae2;text-decoration:none}
-a:visited{color:#1756a9}
-a:hover{color:#111;text-decoration:underline}
+a{text-decoration:none;color:#2a7ae2;}
+a:visited{color:#1756a9;}
+a:hover{color:#111;text-decoration:underline;}
 
 
 	/******************* Top Intro--Row 1  */
