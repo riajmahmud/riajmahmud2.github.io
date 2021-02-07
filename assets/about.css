@@ -151,7 +151,7 @@
                         }
 
 
-    .section-label{font-size: 2em;letter-spacing: 1px;font-weight:bold;color: #333; margin-top:40px; padding:20px;text-align: center;}
+    .section-label{font-size: 2em;letter-spacing: 1px;color: #333; margin-top:40px; padding:20px;text-align: center;}
 
     .posts-set{ display: grid; grid-template-columns: 100%; gap: 20px; padding: 10px 10px; justify-content: space-around;}
         .card-link{display: block;width: 100%;cursor:pointer;}
