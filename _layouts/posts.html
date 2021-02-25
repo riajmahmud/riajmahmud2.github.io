@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    {% include stylesheets.html %}
+  </head>
+  <body>
+    {% include top_intro.html %}
+    {% include navbar.html active="posts" %}
+    <div style="margin: auto;max-width: 1024px;">
+      {{ content }}
+    </div>
+    {% include footer.html content="" %}
+  </body>
+</html>
