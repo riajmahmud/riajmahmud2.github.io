@@ -1,9 +1,13 @@
+{% assign act=include.active %}
 <div class="sticky_nav" style="">
 	<div class="consume-horizontal">
 	<div class="limiter">
 		<span class="txt-logo-small"><span style="color: #666;">riaj</span><span style="color: #6caf90;">.net</span></span>
 		<span class="link-row">
-		<a href="/"><span class="navi-span bp2 active-span">Home</span></a><a href="/posts"><span class="navi-span bp3">Posts</span></a><a href="/about"><span class="navi-span bp4">About</span></a></span>
+			<a href="/"><span class="navi-span bp2 {% if act == "home" %}active-span{% endif %}">Home</span></a>
+			<a href="/posts"><span class="navi-span bp3 {% if act == "posts" %}active-span{% endif %}">Posts</span></a>
+			<a href="/about"><span class="navi-span bp4 {% if act == "about" %}active-span{% endif %}">About</span></a>
+		</span>
 		<span class="navi-span-float icon-menu" onclick="navmenu()"></span>
 	</div>
 	</div>
@@ -19,8 +23,5 @@
 
 	{% assign act=include.active %}
 {% if act == "home" %}<h4>This is Home Page.</h4>{% elsif act == "about" %}<h4>This is About Page.</h4>{% else %}<h4>This is Unknown Page.</h4>{% endif %}
-
-
-
 
 
