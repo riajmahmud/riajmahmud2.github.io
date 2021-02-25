@@ -16,3 +16,11 @@
 </div>
 
 <h3> Active is {{ include.active }} </h3>
+
+	{% assign act="{{ include.active }}" %}
+{% if act == "home" %}<h4>This is Home Page.</h4>{% elsif act == "about" %}<h4>This is About Page.</h4>{% else %}<h4>This is Unknown Page.</h4>{% endif %}
+
+
+
+
+
