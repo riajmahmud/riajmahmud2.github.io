@@ -59,6 +59,7 @@ a:hover{color:#111;text-decoration:underline;}
 	
 	
 .expand:after {content:'\e816'; font-family: fontello;width: 1em; padding: 0px 5px;}
+.bs1 {box-shadow: 1px 5px 10px 1px rgba(51,51,51,0.52);}
 
 
 	@media only screen and (min-width: 360px)
