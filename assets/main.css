@@ -58,7 +58,7 @@ a:hover{color:#111;text-decoration:underline;}
 	
 	
 	
-
+.expand:after {content:'\e816'; font-family: fontello;width: 1em; padding: 0px 5px;}
 
 
 	@media only screen and (min-width: 360px)
