@@ -6,7 +6,8 @@
 		<span class="link-row">
 			<a href="/"><span class="navi-span bp2 {% if act == "home" %}active-span{% endif %}">Home</span></a><a href="/posts"><span class="navi-span bp3 {% if act == "posts" %}active-span{% endif %}">Posts</span></a><a href="/about"><span class="navi-span bp4 {% if act == "about" %}active-span{% endif %}">About</span></a>
 		</span>
-		<span class="navi-span-float icon-menu" onclick="navmenu()"></span>
+		<span class="navi-span-float icon-menu" onclick="menuMobile()" id="button_m"></span>
+		<div id="menu_m">Mobile Menu</div>
 	</div>
 	</div>
 	<div class="limiter" id="navmenu" style="display: none;">
@@ -16,3 +17,41 @@
 
 
 </div>
+
+
+<script>
+
+
+var menu_m = document.getElementById("menu_m");
+var button_m = document.getElementById("button_m");
+
+
+function menuMobile()
+{
+
+
+    if(menu_m.style.display!="block"){menu_m.style.display="block";}
+    else{menu_m.style.display="none";}
+    button_m.classList.toggle("icon-menu");
+    button_m.classList.toggle("expand");
+}
+
+
+/*
+
+window.addEventListener('click', function(e){   
+    if(button_m.contains(e.target))
+  {      console.log("mobile btn pressed!");
+      //if(menu_p.style.display=="block"){menuPro();}
+  }
+
+  else if(!(menu_d.contains(e.target) || menu_p.contains(e.target) || menu_m.contains(e.target)))
+  {
+    console.log("external click pressed!");
+    if(menu_d.style.display=="block"){menuDesk();}
+    if(menu_p.style.display=="block"){menuPro();}
+    if(menu_m.style.display=="block"){menuMobile();}
+  }
+});
+ */
+</script>
