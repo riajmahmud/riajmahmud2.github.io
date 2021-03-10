@@ -1,0 +1,55 @@
+<html>
+	<head>
+        <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+    </head>
+
+<body>
+
+
+<button onclick="submit()">Run</button>
+
+
+
+<script>
+
+function submit()
+{
+    var input = document.getElementById("data").value;
+    var xhr2 = new XMLHttpRequest();
+    xhr2.onreadystatechange = function()
+    {
+        
+        if(this.readyState ==4 && this.status== 200)
+        {
+            alert('Query submitted!');
+            alert(this.responseText);
+        }
+        else  if(this.readyState ==4 && this.status !=200)
+        {
+            alert('Connection could not be established!');
+        }
+
+    }
+
+
+
+    xhr2.open("POST", "https://riajnet.heroku.com/supply.php", true);
+    xhr2.setRequestHeader("Content-type", "text/html");
+    xhr2.send();
+
+}
+
+
+
+
+</script>
+
+
+
+<script src="code.js"></script>
+</body>
+
+</html>
