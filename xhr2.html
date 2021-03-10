@@ -17,7 +17,7 @@
 
 function submit()
 {
-    //var input = document.getElementById("data").value;
+    input = document.getElementById("data").value;
     var xhr2 = new XMLHttpRequest();
     xhr2.onreadystatechange = function()
     {
@@ -38,7 +38,7 @@ function submit()
 
     xhr2.open("POST", "https://riajnet.herokuapp.com/supply.php?data=okkk911", true);
     xhr2.setRequestHeader("Content-type", "text/html");
-    xhr2.send();
+    xhr2.send(input);
 
 }
 
