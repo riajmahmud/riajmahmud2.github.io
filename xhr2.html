@@ -7,7 +7,7 @@
     </head>
 
 <body>
-
+<input type="text" id="data" placeholder="Type data to test">
 
 <button onclick="submit()">Run</button>
 
@@ -36,7 +36,7 @@ function submit()
 
 
 
-    xhr2.open("GET", "https://riajnet.herokuapp.com/supply.php?data=okkk911", true);
+    xhr2.open("POST", "https://riajnet.herokuapp.com/supply.php?data=okkk911", true);
     xhr2.setRequestHeader("Content-type", "text/html");
     xhr2.send();
 
