@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">      
+   </head>
+	
+   <body style="margin: auto; width: 600px;border: 1px solid #ccc;">
+      <!-- Insert this script at the bottom of the HTML, but before you use any Firebase services -->
+ 
+  <script type="module">
+    import { initializeApp } from 'firebase/app'
+
+
+    // Add Firebase products that you want to use
+    import { auth } from 'firebase/auth'
+    import { firestore } from 'firebase/firestore'
+    import { storage } from "firebase/storage"
+    import { database } from "firebase/database"
+  </script>
+  <script>
+            var firebaseConfig = {
+         apiKey: "AIzaSyCAdLRv9prv7unMW8CBpztjjx0Q8Ut2mYc",
+         authDomain: "riajdotnet.firebaseapp.com",
+         projectId: "riajdotnet",
+         storageBucket: "riajdotnet.appspot.com",
+         messagingSenderId: "42611266252",
+         appId: "1:42611266252:web:f5ebb6336d2569bedb2869",
+         databaseURL: "https://riajdotnet-default-rtdb.asia-southeast1.firebasedatabase.app/"
+
+      };
+
+      const app = initializeApp(firebaseConfig);
+
+
+
+
+
+  </script>
+
+   </body>
+</html>
