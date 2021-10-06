@@ -32,6 +32,7 @@
 		   
 //import { collection, doc, setDoc } from "firebase/firestore";
 import {collection, doc, setDoc } from 'https://www.gstatic.com/firebasejs/9.1.1/firebase-firestore.js'
+const db = getFirestore(firebaseApp);
 
 const citiesRef = collection(db, "cities");
 
