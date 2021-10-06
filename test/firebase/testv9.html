@@ -8,15 +8,18 @@
       <!-- Insert this script at the bottom of the HTML, but before you use any Firebase services -->
  
   <script type="module">
-    import { initializeApp } from 'firebase/app'
-
+	  
+	  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js'
 
     // Add Firebase products that you want to use
-    import { auth } from 'firebase/auth'
-    import { firestore } from 'firebase/firestore'
-    import { storage } from "firebase/storage"
-    import { database } from "firebase/database"
+    import { auth } from 'https://www.gstatic.com/firebasejs/9.1.1/firebase-auth.js'
+    import { firestore } from 'https://www.gstatic.com/firebasejs/9.1.1/firebase-firestore.js'
+    import { storage } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-storage.js"
+    import { database } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-database.js"
+	  
   </script>
+
   <script>
             var firebaseConfig = {
          apiKey: "AIzaSyCAdLRv9prv7unMW8CBpztjjx0Q8Ut2mYc",
