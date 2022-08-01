@@ -1,11 +1,154 @@
----
-layout: default
-title: "Home | riaj.net"
-permalink: "index.html"
----
-<br/>
-<br/>
-{% include featured_post.html %}
-<h3>See Latest Posts:</h3>
-{% include posts.html %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="res/favicon9.ico" sizes="64x64" type="image/png">
+    <title>Riaj Mahmud</title>
+    <style>
 
+
+* {box-sizing: border-box;border: 0.0px solid red;font-family: Arial, Helvetica, sans-serif;}
+        .main 
+        { display: grid; grid-template-columns: 100%; margin: auto;max-width: 428px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; padding: 20px;
+        
+        }
+
+        .pic {padding: 20px;text-align: left;}
+            .profile {max-width: 192px;}
+
+        .intro {padding: 10px;}
+            .intro_1 {padding: 7px; font-size: 24px; font-weight: bold;}
+            .intro_2 {padding: 5px; font-size: 18px;}
+            .intro_3 {padding: 3px; font-size: 20px;}
+
+        .details {padding: 10px;}
+            .details_1 {padding: 7px; font-size: 24px;font-weight: bold;}
+            .details_2 {padding: 5px; font-size: 18px;}
+            .details_3 {padding: 3px; font-size: 16px;}
+
+        .references {padding: 10px;}
+            .rfrnc_1 {padding: 7px; font-size: 24px;font-weight: bold;}
+            .rfrnc_2 {padding: 5px; font-size: 18px;font-weight: bold;padding-top: 10px}
+            .rfrnc_3 {padding: 3px; font-size: 15px;}
+
+        .vision { padding: 10px;display: none;}
+            .vision_1 {padding: 7px; font-size: 16px;}
+            .vision_2 {padding: 5px; font-size: 18px;}
+            .vision_3 {padding: 3px; font-size: 20px;}
+        .profile {width: 100%;}
+
+
+        .intro_1 {font-size: 26px;padding: 10px;}
+
+
+        .spacer_1 {height: 30px;}
+        .spacer_2 {height: 20px;}
+
+
+
+
+
+
+
+
+
+    @media only screen and (min-width: 768px) {
+
+        .main 
+        {  grid-template-columns: 25% 75%; max-width: 1024px;
+        
+        }
+        .pic {grid-area: 1/1/3/2;text-align: center;}
+            
+        .intro {grid-area: 1/2/3/3;display: flex; align-items: flex-end;}
+        .details {grid-area: 3/2/9/3;}
+        .references {grid-area: 6/1/9/2;}
+        .vision { grid-area: 3/1/5/2;display: block;}
+
+
+    }
+
+
+
+
+    </style>
+  </head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="pic">
+                <img class="profile" src="riaj.png" alt="Profile Picture of Riaj Mahmud Rasel"/>
+            </div>
+            <div class="intro">
+                <div class="intro-wrapper">
+                    <div class="intro_1">Md. Riaj Mahmud</div>
+                    <div class="intro_2">BSc in Mechanical Engineering</div>
+                    <div class="intro_2">01765599164</div>
+                    <div class="intro_2">kobi@riaj.net</div>
+                    <div class="intro_2">https://riaj.net</div>
+                </div>
+            </div>
+            <div class="details">
+                <div class="details_1">Education</div>
+                <div class="details_2">BSc In Mechanical Engineering</div>
+                <div class="details_2">Bangladesh University of Engineering and Technology (BUET)</div>
+                <div class="details_3">(2017-2022) CGPA: 3.62 out of 4</div>
+                <div class="spacer_2"></div>
+                <div class="details_2">HSC, Science, B.A.F. Shaheen College Kurmitola</div>
+                <div class="details_3">(2014-2016) GPA: 5 out of 5</div>
+                <div class="spacer_2"></div>
+                <div class="details_2">SSC, Science, Takerhat Popular High School and College</div>
+                <div class="details_3">(2012-2014) GPA: 5 out of 5</div>
+                <div class="spacer_1"></div>
+
+
+                <div class="details_1">Experience</div>
+                <div class="details_2">Industrial Trainee, Kohinoor Chemical Company (Bangladesh) Limited.
+                </div>
+                <div class="details_2">Part-time website developer, BUET DCE (https://dce.buet.ac.bd)</div>
+                <div class="spacer_1"></div>
+
+                
+                <div class="details_1">Extra Curricular Activities</div>
+                <div class="details_2">Website Development: Frontend, Backend (HTML, CSS, JS, PHP)</div>
+                <div class="details_2">Hands on experience: Arduino, Raspberry Pi</div>
+                <div class="spacer_1"></div>
+
+                <div class="details_1">Computer Skills</div>
+                <div class="details_2">Office Applications (Document, Spreadsheet, Presentation)</div>
+                <div class="details_2">3D Design (Blender)</div>
+                <div class="details_2">2D Vector Graphics</div>
+
+            </div>
+
+            <div class="references">
+                <div class="rfrnc_1">References</div>
+                <div class="rfrnc_2">Dr. Md. Zahurul Haque</div>
+                <div class="rfrnc_3">Professor, Mechanical Engineering (BUET)</div>
+                <div class="rfrnc_3">zahurul@me.buet.ac.bd</div>
+                <div class="spacer_2"></div>
+                <div class="rfrnc_2">Dr. Mohammad Nasim Hasan</div>
+                <div class="rfrnc_3">Professor, Mechanical Engineering (BUET)</div>
+                <div class="rfrnc_3">nasim@me.buet.ac.bd</div>
+
+
+            </div>
+            <div class="vision">
+                <div class="vision_1">I am willing to work with a view to achieve personal as well as organizational goals.</div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>
